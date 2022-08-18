@@ -53,7 +53,7 @@ nav img{
 .centralText{
     position: absolute;
     text-align: center;
-    left: 50%;
+    left: 30%;
     top: 50%;
     transform: translate(-50%,-50%);
 }
@@ -90,12 +90,183 @@ nav img{
     text-align: center;
 }
 .oneCard a img{
-    
+    transition: .4s;
     width: 15%;
+}
+.oneCard a img:hover{
+    transform: scale(1.2);
 }
 .hand a img{
     width: 10%;
 }
 .cringe{
     margin-top: 30px;
+}
+.about{
+    background-image: url(circle.svg);
+    aspect-ratio: 960/150;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.textabout{
+    background-color: transparent;
+    position: relative;
+    top: 60%;
+    left: 50%;
+    max-width: 40%;
+    animation: name 4s ease;
+    transform: translate(-50%,-50%)
+}
+@keyframes name {
+    from{
+        transform: rotate(45deg);
+    }
+    to{
+        transform: rotate(0deg);transform: translate(-50%,-50%);
+    }
+}
+.textabout h1{
+    
+    padding: 20px;
+}
+.textabout p{
+    padding: 30px;
+}
+.iop{
+    text-align: center;
+}
+.iop1{
+    text-align: end;
+    font-size: 10px;
+}
+.flexbox{
+    display: flex;
+}
+.flexbox img{
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    right: -10%;
+    transform: translate(-50%,-50%);
+    animation: imganime 2s ease;
+}
+@keyframes imganime {
+    0%{
+        right: -1000%;
+    }
+    100%{
+        right: -10%;
+        transform: translate(-50%,-50%);
+    }
+}
+.skills{
+    aspect-ratio: 960/540;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(pobogu.svg);
+}
+h2{
+    background-color: transparent;
+}
+.skills h1{
+    font-size: 50px;
+    background-color: transparent;
+    position: relative;
+    text-align: center;
+    top: 37%;
+    transform: translateY(-50%)
+}
+.h2andbarline{
+    background-color: transparent;
+    position: relative;
+    text-align: center;
+    top: 37%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barline{
+    width: 30%;
+    background-color: black;
+    height: 3vh;
+    margin: 30px;
+}
+.htmlbar{
+    width: 97%;
+    background-color: rgb(255, 1, 1);
+    height: 3vh;
+    margin: 30px;
+    animation:fillbarsFINALLY3 2s ease;   
+}
+.htmlbar::after{
+    content: "93%";
+}
+.cssbar{
+    width: 80%;
+    background-color: rgb(255, 1, 1);
+    height: 3vh;
+    margin: 30px;
+    animation:fillbarsFINALLY2 2s ease;   
+}
+.cssbar::after{
+    content: "80%";
+}
+.jsbar{
+    width: 30%;
+    background-color: rgb(255, 1, 1);
+    height: 3vh;
+    margin: 30px;
+    animation:fillbarsFINALLY1 2s ease;  
+}
+.jsbar::after{
+    content: "30%";
+}
+.barline .jsbar{
+    position: relative;
+    top: -160%;
+    left: -10%;
+}
+.barline .cssbar{
+    position: relative;
+    top: -160%;
+    left: -10%;
+}
+.barline .htmlbar{
+    position: relative;
+    top: -160%;
+    left: -10%;
+}
+@keyframes fillbarsFINALLY1{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 30%;
+    }
+}
+@keyframes fillbarsFINALLY2{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 80%;
+    }
+}
+@keyframes fillbarsFINALLY3 {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 97%;
+    }
+}
+footer p{
+    text-align: center;
 }
