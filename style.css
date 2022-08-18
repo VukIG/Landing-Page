@@ -58,7 +58,32 @@ nav img{
 }
 .centralText h1{
     font-size: 60px;
+    animation: myAnimation 2s ease;
+}
+.centralText p{
+    animation: myAnimation 1s ease;
+}
+
+
+
+@keyframes myAnimation{
+    from{
+        margin-left: -10000px;
+    }
+    to{
+        margin-left: 0px;
+    }
 }
 .jovan{
-    font-size: 40px;
+    font-size: 60px;
+    text-align: center;
+}
+.cringe{
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.oneCard a img{
+    width: 15%;
 }
