@@ -4,6 +4,7 @@
     color: white;
     background-color: black;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 .space{
     aspect-ratio: 960/540;
@@ -80,10 +81,21 @@ nav img{
 }
 .cringe{
     width: 100%;
-    display: grid;
-    justify-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.oneCard{
+    width: 30%;
+    text-align: center;
 }
 .oneCard a img{
+    
     width: 15%;
+}
+.hand a img{
+    width: 10%;
+}
+.cringe{
+    margin-top: 30px;
 }
