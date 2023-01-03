@@ -18,13 +18,13 @@
     aspect-ratio: 960/150;
     width: 100%;
     height: 20vh;
-    background-image: url(upsidedown.svg);
+    background-image: url(../public/svg/upsidedown.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .spacer{
-    background-image: url(rightone.svg);
+    background-image: url(../public/svg/rightone.svg);
 }
 nav{
     display: flex;
@@ -103,7 +103,7 @@ nav img{
     margin-top: 30px;
 }
 .about{
-    background-image: url(circle.svg);
+    background-image: url(../public/svg/circle.svg);
     aspect-ratio: 960/150;
     width: 100%;
     height: 100vh;
@@ -169,7 +169,7 @@ nav img{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(pobogu.svg);
+    background-image: url(../public/svg/pobogu.svg);
 }
 h2{
     background-color: transparent;
@@ -271,7 +271,7 @@ h2{
     aspect-ratio: 960/540;
     width: 100%;
     height: 100vh;
-    background-image: url(jovani.svg);
+    background-image: url(../public/svg/jovani.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
