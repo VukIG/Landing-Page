@@ -162,111 +162,38 @@ nav img{
         transform: translate(-50%,-50%);
     }
 }
-.skills{
-    aspect-ratio: 960/540;
-    width: 100%;
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(../public/svg/pobogu.svg);
-}
-h2{
-    background-color: transparent;
-}
-.skills h1{
-    font-size: 50px;
-    background-color: transparent;
-    position: relative;
-    text-align: center;
-    top: 37%;
-    transform: translateY(-50%)
-}
-.h2andbarline{
-    background-color: transparent;
-    position: relative;
-    text-align: center;
-    top: 37%;
-    transform: translateY(-50%);
+.skilovi{
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
-.barline{
-    width: 30%;
-    background-color: black;
-    height: 3vh;
-    margin: 30px;
+.skills{    
+    margin: 100px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 500px;
+    grid-gap: 12px;
+
 }
-.htmlbar{
-    width: 97%;
-    background-color: rgb(255, 1, 1);
-    height: 3vh;
-    margin: 30px;
-    animation:fillbarsFINALLY3 2s ease;   
+
+.skill img{
+    width: 100%;
+    transition: .4s ease;
 }
-.htmlbar::after{
-    content: "93%";
+
+.skill img:hover{
+    transform: translateY(100px);
+    transform: scale(1.2);
+
 }
-.cssbar{
-    width: 80%;
-    background-color: rgb(255, 1, 1);
-    height: 3vh;
-    margin: 30px;
-    animation:fillbarsFINALLY2 2s ease;   
+
+.centre{
+    transform: translateY(70px);
+    text-align: center;
 }
-.cssbar::after{
-    content: "80%";
-}
-.jsbar{
-    width: 30%;
-    background-color: rgb(255, 1, 1);
-    height: 3vh;
-    margin: 30px;
-    animation:fillbarsFINALLY1 2s ease;  
-}
-.jsbar::after{
-    content: "30%";
-}
-.barline .jsbar{
-    position: relative;
-    top: -160%;
-    left: -10%;
-}
-.barline .cssbar{
-    position: relative;
-    top: -160%;
-    left: -10%;
-}
-.barline .htmlbar{
-    position: relative;
-    top: -160%;
-    left: -10%;
-}
-@keyframes fillbarsFINALLY1{
-    from{
-        width: 0%;
-    }
-    to{
-        width: 30%;
-    }
-}
-@keyframes fillbarsFINALLY2{
-    from{
-        width: 0%;
-    }
-    to{
-        width: 80%;
-    }
-}
-@keyframes fillbarsFINALLY3 {
-    from{
-        width: 0%;
-    }
-    to{
-        width: 97%;
-    }
-}
+
 .contactme{
     aspect-ratio: 960/540;
     width: 100%;
