@@ -15,6 +15,7 @@
     background-size: cover;
 }
 .upside{
+    z-index: 19;
     aspect-ratio: 960/150;
     width: 100%;
     height: 20vh;
@@ -81,6 +82,7 @@ nav img{
 }
 .cringe{
     width: 100%;
+    height: 30vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -112,6 +114,10 @@ nav img{
     background-size: cover;
 }
 .textabout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
     background-color: transparent;
     position: relative;
     top: 60%;
@@ -119,6 +125,10 @@ nav img{
     max-width: 40%;
     animation: name 4s ease;
     transform: translate(-50%,-50%)
+}
+.textabout p{
+    border-radius: 5px;
+    text-align: center;
 }
 @keyframes name {
     from{
@@ -134,13 +144,6 @@ nav img{
 }
 .textabout p{
     padding: 30px;
-}
-.iop{
-    text-align: center;
-}
-.iop1{
-    text-align: end;
-    font-size: 10px;
 }
 .flexbox{
     display: flex;
@@ -168,7 +171,7 @@ nav img{
     align-items: center;
 }
 .skills{    
-    margin: 100px;
+    height: 100vh;
     display: grid;
     justify-items: center;
     align-items: center;
@@ -204,14 +207,23 @@ nav img{
     background-size: cover;
 }
 .contactme .textfoot{
-    background-color: transparent;
+    padding: 30px;
+    background-color: gray;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
     position: relative;
-    top: 50%;
+    top: 40%;
+    left: 100%;
     text-align: center;
-    transform: translateY(-50%);
+    transform: translateX(-70%);
+
 }
 .contactme .textfoot p,h1{
     background-color: transparent;
+}
+.textfoot p,h1{
+    max-width: 700px;
 }
 .contactme footer{
     position: absolute;
@@ -223,4 +235,17 @@ nav img{
 .contactme footer p{
     text-align: center;
     background-color: transparent;
+}
+.licnaSlika{
+    border-radius: 50%;
+    z-index: 1;
+}
+.FlexIkone{
+    width: 100%;
+    display: flex;
+    justify-items: space-between;
+    align-items: center;
+}
+.flexikona{
+    width: 150px;
 }
