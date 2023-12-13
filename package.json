@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/VukIG/Landing-Page/issues"
   },
-  "homepage": "https://github.com/VukIG/Landing-Page#readme",
-  "dependencies": {
-    "three": "^0.148.0"
-  }
+  "homepage": "https://github.com/VukIG/Landing-Page#readme"
 }

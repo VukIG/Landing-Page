@@ -117,6 +117,7 @@ nav img{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 10px;
     background-color: transparent;
     position: relative;
@@ -139,7 +140,6 @@ nav img{
     }
 }
 .textabout h1{
-    
     padding: 20px;
 }
 .textabout p{
@@ -152,7 +152,7 @@ nav img{
     width: 500px;
     position: absolute;
     top: 50%;
-    right: -10%;
+    right: 0%;
     transform: translate(-50%,-50%);
     animation: imganime 2s ease;
 }
@@ -173,7 +173,7 @@ nav img{
 .skills{    
     height: 100vh;
     display: grid;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 500px;
@@ -205,19 +205,16 @@ nav img{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.contactme .textfoot{
+}.textfoot{
     padding: 30px;
     background-color: gray;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-
+    width: 890px;
     position: relative;
     top: 40%;
-    left: 100%;
+    left: 50%;
     text-align: center;
-    transform: translateX(-70%);
-
 }
 .contactme .textfoot p,h1{
     background-color: transparent;
@@ -240,12 +237,6 @@ nav img{
     border-radius: 50%;
     z-index: 1;
 }
-.FlexIkone{
-    width: 100%;
-    display: flex;
-    justify-items: space-between;
-    align-items: center;
-}
 .flexikona{
-    width: 150px;
+    height: 156px;
 }
